@@ -1,0 +1,55 @@
+.container{
+  width : 700px;
+  padding :px;
+  border : 1px solid black;
+  margin-left : auto;
+  margin-right : auto;
+  margin-bottom : 20px; 	
+  height :  150px;
+  align : center;
+  background-color : #6a5750;
+
+  }
+.review-site{
+  position : relative;
+  width  : 350px;
+  background-color : #b5a397;
+  height : 30px;
+  text-align : center;
+  margin-left : 60px;
+  margin-right : auto;
+  padding : 1px;
+  color : white;
+  float : left;
+ }
+span{
+  font-weight : bold;
+  font-size : 30px
+}
+.review-rating{
+  background-color : #30231d;
+  width : 200px;
+  height : 150px;
+  float : right;
+  color : #f6f1ed;
+  text-align : center;
+  
+}
+.review-content{
+  position : absolute;
+  top : 50px;
+  width : 500px;
+  height : 115px;
+  color : #FFF8DC; 
+}
+.review-rating h1{
+  font-weight : bold;
+  font-size : 60px;
+  }
+.review-content1{
+  position : absolute;
+  top : 230px;
+  width : 500px;
+  height : 115px;
+  color : #FFF8DC;  
+}

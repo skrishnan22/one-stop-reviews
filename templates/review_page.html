@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>1 Stop Reviews</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/review_page.css') }}"> 	
+  </head>
+  <body>
+    <div class = "container">
+      <div class = "review-site">
+        <span>BEHINDWOODS</span>
+      </div>
+        <div class = "review-content">
+         {{b_review}}
+      </div> 
+      <div class = "review-rating">
+        <h1>{{b_rating}}</h1>
+        </div>
+    </div>
+	
+	<div class = "container">
+      <div class = "review-site">
+        <span>TIMES OF INDIA</span>
+      </div>
+        <div class = "review-content1">
+         {{i_review}}
+      </div> 
+      <div class = "review-rating">
+        <h1>{{i_rating}}</h1>
+        </div>
+    </div>
+    

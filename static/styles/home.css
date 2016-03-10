@@ -1,0 +1,25 @@
+.nav_bar{
+  background-color : #d32127;
+  height : 90px;
+  color : #ffffff;
+  font-size : 30px;
+  font-weight : bold;
+  line-height: 90px;
+  
+  }
+.main_content{
+  color : #FF5A09;
+  text-align  : center;
+  margin-top : 90px;
+  margin-bottom : auto;
+  font-size : 70px;
+  font-weight : bold;
+  
+}
+body{
+  background-color : #333333;
+}
+  
+  
+  
+}
