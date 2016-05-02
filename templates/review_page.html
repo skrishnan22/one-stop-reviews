@@ -1,9 +1,9 @@
 <html>
   <head>
-    <title>1 Stop Reviews</title>
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/review_page.css') }}"> 	
+    <title>One Stop Reviews</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/review-page.css') }}"> 	
   </head>
-  <body>
+  <body style="background-color:#d9d9d9">
     <div class = "container">
       <div class = "review-site">
         <span>BEHINDWOODS</span>
@@ -27,4 +27,19 @@
         <h1>{{i_rating}}</h1>
         </div>
     </div>
+	
+	<div class = "container">
+      <div class = "review-site">
+        <span>FILMIBEAT</span>
+      </div>
+        <div class = "review-content1" style="top:410px">
+         {{fi_review}}
+      </div> 
+      <div class = "review-rating">
+        <h1>{{fi_rating}}</h1>
+        </div>
+    </div>
     
+	</body>
+	</html>
+	

@@ -7,13 +7,13 @@
   margin-bottom : 20px; 	
   height :  150px;
   align : center;
-  background-color : #6a5750;
+  background-color : #52658F;
 
   }
 .review-site{
   position : relative;
   width  : 350px;
-  background-color : #b5a397;
+  background-color : #155765;
   height : 30px;
   text-align : center;
   margin-left : 60px;
@@ -27,11 +27,11 @@ span{
   font-size : 30px
 }
 .review-rating{
-  background-color : #30231d;
+  background-color : #333A56;
   width : 200px;
   height : 150px;
   float : right;
-  color : #f6f1ed;
+  color : white;
   text-align : center;
   
 }
@@ -40,7 +40,7 @@ span{
   top : 50px;
   width : 500px;
   height : 115px;
-  color : #FFF8DC; 
+  color : white; 
 }
 .review-rating h1{
   font-weight : bold;
@@ -51,5 +51,5 @@ span{
   top : 230px;
   width : 500px;
   height : 115px;
-  color : #FFF8DC;  
+  color : white;  
 }
