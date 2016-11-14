@@ -8,15 +8,15 @@
 	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/home.css') }}"> 
 	</head>	
     <body>
-      <div class="nav_bar">
+      <div class="header">
         Your One Stop Destination for Movie Reviews
       </div>
       <div class="main_content">
         ONE STOP REVIEWS
         <form action = "/review" method = "POST">
-        <input type = "text" name = "movie_name" placeholder="Movie Name" required style="width : 500px;height:30px">
+        <input type = "text" name = "movie_name" placeholder="Movie Name" required style="width: 85% ; height: 30%">
 		
-          <button type = "submit" name = "formsubmit" style = "width: 40px;height:30px;background-color:#004687;color:#ffffff">OK</button>
+          <button type = "submit" name = "formsubmit" style = "width: 10% ; height: 30% ; background-color: #004687 ; color: #ffffff">OK</button>
     </form>      
       </div>
     </body>
