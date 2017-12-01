@@ -95,4 +95,4 @@ def review():
     return render_template("review_page.html",b_review = b_review,b_rating = b_rating,i_review = i_review,i_rating = i_rating,fi_review = fi_review,fi_rating = fi_rating)
 if __name__ == "__main__":
    
-    app.run(debug=True)
+    app.run(debug=False)
